@@ -1,0 +1,8 @@
+.navbar, .nav-title-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link-container{
+    margin-left: auto;
+}
