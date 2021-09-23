@@ -3,3 +3,46 @@
     min-height: 80vh;
     overflow-x: hidden;
 }
+
+.home-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.home-wrapper div{
+    flex: 0 0 30%;
+}
+
+.home-wrapper img{
+    max-width: 100%;
+}
+
+.ImgContainer{
+    background-color: rgb(244, 236, 230);
+    box-shadow: rgba(138, 131, 124, 0.23) -11.31px 11.31px 17px 0px;
+}
+
+.ImgContainer *{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.ImgContainer .social-medias{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.img-container img{
+    height: 210px;
+    border-radius: 10px;
+}
+
+.ImgContainer .social-medias img{
+    display: block;
+    width: 26px;
+    height: 26px;
+    margin: 0px 10px;
+}
+
