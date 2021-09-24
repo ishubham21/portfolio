@@ -2,15 +2,33 @@
     width: 100%;
     min-height: 80vh;
     overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.bg-color{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 40%;
+    background-color: rgb(230, 218, 206);
+    z-index: -1;
 }
 
 .home-wrapper{
+    flex:  0 0 100%;
     display: flex;
     justify-content: center;
 }
 
-.home-wrapper div{
-    flex: 0 0 30%;
+.home-wrapper .ImgContainer, .home-wrapper .DescContainer{
+    /* flex: 0 0 25%; */
+    width: 375px;
+    height: 525px;
+    margin: 0 15px;
+    position: relative;
 }
 
 .home-wrapper img{
@@ -32,6 +50,41 @@
     display: flex;
     justify-content: center;
     background-color: #fff;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* box-shadow: rgba(138, 131, 124, 0.23) -11.31px 11.31px 25px 0px; */
+}
+
+.ImgContainer .img-container{
+    margin-top: 50px;
+}
+
+.ImgContainer .name-container{
+    margin: 35px 0 25px;
+    font-weight: 800;
+}
+
+.ImgContainer h2{
+    line-height: 1.2em;
+    font-family: 'Poppins-Bold';
+}
+
+.ImgContainer .break-line{
+    width: 70px;
+    height: 2px;
+    background-color: rgb(0, 80, 225);
+    margin-bottom: 25px;
+}
+
+.ImgContainer .name-designation{
+    margin-bottom: 50px;
+    letter-spacing: 0.25em;
+    font-size: 16px;
+    font-family: 'Poppins-light';
+    font-weight: 100;
+    text-transform: uppercase;
 }
 
 .img-container img{
@@ -39,10 +92,72 @@
     border-radius: 10px;
 }
 
-.ImgContainer .social-medias img{
+.ImgContainer .social-medias img, .social-medias a{
     display: block;
     width: 26px;
     height: 26px;
     margin: 0px 10px;
 }
 
+/* ------- Description Container --------- */
+
+.DescContainer .headline-1{
+    font-size: 100px;
+    font-family: 'Poppins-Bold';
+}
+
+.DescContainer .headline-2{
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.DescContainer .btn-container{
+    margin-bottom: 50px;
+}
+
+.DescContainer .btn-container a{
+    margin-right: 10px;
+}
+
+.DescContainer .btn-container button{ 
+    width: 125px;
+    height: 35px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.DescContainer .btn-container .resume-btn{
+    background-color: rgb(0, 80, 225);
+    color: #fff;
+}
+
+.DescContainer .btn-container .resume-btn:hover{
+    border: 2px solid rgb(0, 80, 225);
+    background-color: #fff;
+    color: #000;
+}
+
+.DescContainer .btn-container .project-btn{
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.DescContainer .btn-container .project-btn:hover{
+    background-color: rgb(0, 80, 225);
+    color: #fff;
+    border: 0
+}
+
+.DescContainer .bio-paragraph{
+    line-height: 1.5em;
+    font-size: 16px;
+    letter-spacing: normal;
+    font-family: 'Poppins-Light';
+}

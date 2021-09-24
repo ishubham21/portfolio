@@ -5,6 +5,7 @@ import DescContainer from './Desc-container/DescContainer';
 const Home = () => {
     return ( 
         <div className="home-container">
+            <div className="bg-color"></div>
             <div className="home-wrapper">
                 <ImgContainer />
                 <DescContainer />
