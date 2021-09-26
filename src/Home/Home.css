@@ -1,6 +1,6 @@
 .home-container{
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
     overflow-x: hidden;
     display: flex;
     align-items: center;
@@ -39,6 +39,7 @@
 .ImgContainer{
     background-color: rgb(244, 236, 230);
     box-shadow: rgba(138, 131, 124, 0.23) -11.31px 11.31px 17px 0px;
+    z-index: 99;
 }
 
 .ImgContainer *{
@@ -88,7 +89,7 @@
     text-transform: uppercase;
 }
 
-.img-container img{
+.ImgContainer .img-container img{
     height: 210px;
     border-radius: 10px;
 }
