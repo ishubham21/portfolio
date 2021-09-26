@@ -64,6 +64,15 @@
     animation: bottom_up 0.9s;
 }
 
+.link-active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgb(0, 80, 225);
+}
+
+.link-active-mb{
+    color: #000;
+}
+
 .animate-ham span:nth-child(1){
     transform: rotate(45deg) translate(3px, 1px);
 }

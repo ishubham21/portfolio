@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -34,10 +34,10 @@ const Navbar = () => {
                 </div>
 
                 <div className="nav-link-container">
-                    <Link to='/about' className="nav-links">About Me</Link>
-                    <Link to='/resume' className="nav-links">Resume</Link>
-                    <Link to='/projects' className="nav-links">Projects</Link>
-                    <Link to='/contact' className="nav-links">Contact</Link>
+                    <NavLink to='/about' className="nav-links" activeClassName="link-active">About Me</NavLink>
+                    <NavLink to='/resume' className="nav-links" activeClassName="link-active">Resume</NavLink>
+                    <NavLink to='/projects' className="nav-links" activeClassName="link-active">Projects</NavLink>
+                    <NavLink to='/contact' className="nav-links" activeClassName="link-active">Contact</NavLink>
                 </div>
 
                 <div className={`mobile-nav ${menuOpen ? 'animate-ham': ''}`}>
@@ -48,10 +48,10 @@ const Navbar = () => {
                     </div>
 
                     <div className="mobile-link-container">
-                        <Link to='/about' className="mobile-nav-links" onClick={toggleMenu}>About Me</Link>
-                        <Link to='/resume' className="mobile-nav-links" onClick={toggleMenu}>Resume</Link>
-                        <Link to='/projects' className="mobile-nav-links" onClick={toggleMenu}>Projects</Link>
-                        <Link to='/contact' className="mobile-nav-links" onClick={toggleMenu}>Contact</Link>
+                        <NavLink to='/about' className="mobile-nav-links" activeClassName="link-active-mb" onClick={toggleMenu}>About Me</NavLink>
+                        <NavLink to='/resume' className="mobile-nav-links" activeClassName="link-active-mb" onClick={toggleMenu}>Resume</NavLink>
+                        <NavLink to='/projects' className="mobile-nav-links" activeClassName="link-active-mb" onClick={toggleMenu}>Projects</NavLink>
+                        <NavLink to='/contact' className="mobile-nav-links" activeClassName="link-active-mb" onClick={toggleMenu}>Contact</NavLink>
                     </div>
 
                 </div>
