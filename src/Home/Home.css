@@ -1,6 +1,6 @@
 .home-container{
     width: 100%;
-    min-height: 80vh;
+    min-height: 100vh;
     overflow-x: hidden;
     display: flex;
     align-items: center;
@@ -21,6 +21,7 @@
     flex:  0 0 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .home-wrapper .ImgContainer, .home-wrapper .DescContainer{
@@ -130,12 +131,13 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 600;
-    transition: all 0.3s;
+    transition: all 0.4s;
 }
 
 .DescContainer .btn-container .resume-btn{
     background-color: rgb(0, 80, 225);
     color: #fff;
+    border: 2px solid rgb(0, 80, 225);
 }
 
 .DescContainer .btn-container .resume-btn:hover{
@@ -160,4 +162,7 @@
     font-size: 16px;
     letter-spacing: normal;
     font-family: 'Poppins-Light';
+    margin-bottom: 15px;
+    color: #333;
 }
+

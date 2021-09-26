@@ -1,3 +1,42 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    background-color: #fff;
+}
+
+.navbar .nav-sub-container{
+    width: 100%;
+    margin: 0 50px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-blk{
+    width: 10px;
+    height: 10px;
+    padding: 3px;
+    background-color: rgb(0, 80, 225);
+}
+
+.navbar .nav-name{
+    line-height: 1.2em;
+    font-family: 'Poppins-Bold';
+}
+
+.navbar .nav-designation{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.navbar .nav-name, .navbar .nav-designation, .navbar .slash{
+    margin-left: 8px;
+}
+
 .navbar, .nav-title-container{
     display: flex;
     align-items: center;
@@ -6,3 +45,4 @@
 .nav-link-container{
     margin-left: auto;
 }
+

@@ -1,0 +1,45 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.footer .sub-container{
+    width: 100%;
+    margin: 0 50px;
+    display: flex;
+}
+
+.footer .social-container{
+    margin-left: auto;
+    display: flex;
+}
+
+.footer .social-container .sub-box{
+    margin-left: 35px;
+    text-align: center;
+}
+
+.footer .text-bold{
+    color: #232323;
+    margin-bottom: 5px;
+}
+
+.footer .social-icons{
+    display: flex;
+}
+
+.footer .social-icons a{
+    margin-left: 11px;
+}
+
+.footer .social-icons img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

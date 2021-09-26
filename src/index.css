@@ -32,3 +32,16 @@ a, a:visited{
 .main-content{
   width: 100%;
 }
+
+.App{
+  height: 100vh;
+  position: relative;
+}
+
+.navbar, .footer{
+  height: 10vh;
+}
+
+.text-bold{
+  font-family: 'Poppins-Bold';
+}
