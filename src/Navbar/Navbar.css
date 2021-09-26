@@ -61,6 +61,7 @@
     font-family: 'Poppins-Bold';
     margin: 10px;
     text-transform: uppercase;
+    animation: bottom_up 0.9s;
 }
 
 .animate-ham span:nth-child(1){
@@ -87,6 +88,7 @@
     right: 0;
     bottom: 0;
     background-color: rgb(244, 236, 230);
+    animation: fade_in 0.5s;
 }
 
 @media(max-width: 991px){
@@ -127,3 +129,17 @@
     }   
 }
 
+@media (max-width: 440px){
+    .navbar .nav-sub-container{
+        margin: 0 20px!important;
+    }
+
+    .navbar .nav-name{
+        font-size: 19px;
+    }
+
+    .navbar .nav-designation{
+        font-size: 12px;
+    }
+
+}
