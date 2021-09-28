@@ -34,7 +34,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="nav-link-container">
-                    <NavLink to='/' className="nav-links" activeClassName="link-active">About Me</NavLink>
+                    <NavLink exact to='/' className="nav-links" activeClassName="link-active">About Me</NavLink>
                     <NavLink to='/resume' className="nav-links" activeClassName="link-active">Resume</NavLink>
                     <NavLink to='/projects' className="nav-links" activeClassName="link-active">Projects</NavLink>
                     <NavLink to='/contact' className="nav-links" activeClassName="link-active">Contact</NavLink>
@@ -48,7 +48,7 @@ const Navbar = () => {
                     </div>
 
                     <div className="mobile-link-container">
-                        <NavLink to='/' className="mobile-nav-links" activeClassName="link-active-mb" onClick={toggleMenu}>About Me</NavLink>
+                        <NavLink exact to='/' className="mobile-nav-links" activeClassName="link-active-mb" onClick={toggleMenu}>About Me</NavLink>
                         <NavLink to='/resume' className="mobile-nav-links" activeClassName="link-active-mb" onClick={toggleMenu}>Resume</NavLink>
                         <NavLink to='/projects' className="mobile-nav-links" activeClassName="link-active-mb" onClick={toggleMenu}>Projects</NavLink>
                         <NavLink to='/contact' className="mobile-nav-links" activeClassName="link-active-mb" onClick={toggleMenu}>Contact</NavLink>

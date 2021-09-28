@@ -1,0 +1,31 @@
+[
+    {
+        "from": "May 2021",
+        "to": "Present",
+        "company": "InterviewBit",
+        "position": "Technical Content Writer",
+        "experience": [
+            "Worked closely with the Data Structures and Algortihms (DSA) team to produce 15+ articles on DSA for the Scaler Hub"
+        ]
+    },
+    {
+        "from": "April 2020",
+        "to": "May 2021",
+        "company": "Techknights",
+        "position": "Full Stack Web Developer",
+        "experience": [
+            "Led a team of 5 developers to develop a web-based event reservation system - Used Google Firebase to collect and store the user data, added functionality of downloading the regeistration data in Excel (.xls) format.",
+            "Developed an admin dashboard that allows dynamic addition of the events"
+        ]
+    },
+    {
+        "from": "April 2020",
+        "to": "May 2021",
+        "company": "Techknights",
+        "position": "Full Stack Web Developer",
+        "experience": [
+            "Led a team of 5 developers to develop a web-based event reservation system - Used Google Firebase to collect and store the user data, added functionality of downloading the regeistration data in Excel (.xls) format.",
+            "Developed an admin dashboard that allows dynamic addition of the events"
+        ]
+    }
+]
