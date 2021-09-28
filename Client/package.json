@@ -2,6 +2,7 @@
   "name": "portfolio-shubham",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://portfolio-ishubham21.vercel.app/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",

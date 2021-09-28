@@ -6,7 +6,8 @@
         "position": "Technical Content Writer",
         "experience": [
             "Worked closely with the Data Structures and Algortihms (DSA) team to produce 15+ articles on DSA for the Scaler Hub"
-        ]
+        ],
+        "id": 3
     },
     {
         "from": "April 2020",
@@ -15,17 +16,19 @@
         "position": "Full Stack Web Developer",
         "experience": [
             "Led a team of 5 developers to develop a web-based event reservation system - Used Google Firebase to collect and store the user data, added functionality of downloading the regeistration data in Excel (.xls) format.",
-            "Developed an admin dashboard that allows dynamic addition of the events"
-        ]
+            "Developed an admin dashboard that allows dynamic addition of the events."
+        ],
+        "id": 2
     },
     {
-        "from": "April 2020",
-        "to": "May 2021",
-        "company": "Techknights",
-        "position": "Full Stack Web Developer",
+        "from": "November 2020",
+        "to": "December 2021",
+        "company": "ISOLS Group Pvt. Ltd.",
+        "position": "Front End Developer",
         "experience": [
-            "Led a team of 5 developers to develop a web-based event reservation system - Used Google Firebase to collect and store the user data, added functionality of downloading the regeistration data in Excel (.xls) format.",
-            "Developed an admin dashboard that allows dynamic addition of the events"
-        ]
+            "Used HTML, CSS, JavaScript, and jQuery to enhance functionality and user experience on web pages.",
+            "Worked with senior developers to write code from scratch for clients such as Microtek Infrastructures."
+        ],
+        "id": 1
     }
 ]

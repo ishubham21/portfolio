@@ -18,48 +18,63 @@
   src: url('./assets/fonts/Poppins-ExtraBold.ttf');
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Poppins-Regular';
 }
 
-a, a:visited{
+a, a:visited {
   text-decoration: none;
   color: #000;
 }
 
-.main-content{
+.main-content {
   width: 100%;
 }
 
-.App{
+.App {
   height: 100vh;
   position: relative;
 }
 
-.navbar, .footer{
+.navbar, .footer {
   height: 10vh;
 }
 
-.text-bold{
+.text-bold {
   font-family: 'Poppins-Bold';
 }
 
-@keyframes fade_in{
-  0%{
-      opacity: 0;
+@keyframes fade_in {
+  0% {
+    opacity: 0;
   }
-  100%{
-      opacity: 1;
+  100% {
+    opacity: 1;
   }
 }
 
-@keyframes bottom_up{
-  0%{
+@keyframes bottom_up {
+  0% {
     transform: translateY(30px);
   }
-  100%{
+  100% {
     transform: translateY(0);
   }
+}
+
+.btn-blue {
+  padding: 10px 15px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  transition: all 0.4s;
+  background-color: rgb(0, 80, 225);
+  color: #fff;
+  border: 2px solid rgb(0, 80, 225);
 }
