@@ -31,11 +31,12 @@ const Resume = () => {
                         <h3>Experience</h3>
                         <a href="http://google.com" target="_blank" rel="noreferrer">
                             <button className="btn-blue">
-                                DOWNLOAD CV
+                                <span>DOWNLOAD CV</span>
                             </button>
                         </a>
                     </div>
-                    {notLoaded && <div>Loading...</div>}
+
+                    {notLoaded && <div className="loading-blk">Loading...</div>}
 
                     {experiences && experiences.map((experience) => (
                         <Card experience={experience} key={experience.id} />

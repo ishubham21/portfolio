@@ -1,9 +1,9 @@
-.resume-container{
+.resume-container {
     min-height: 100vh;
     background-color: rgb(230, 218, 206);
 }
 
-.resume-sub-container{
+.resume-sub-container {
     padding-top: 60px;
     display: flex;
     flex-direction: column;
@@ -11,26 +11,32 @@
     justify-content: center;
 }
 
-.resume-sub-container .heading{
+.resume-sub-container .heading {
     display: flex;
     align-items: center;
 }
 
-.position-section{
+.position-section {
     width: 40%;
-    margin-top: 70px;
 }
 
-.resume-sub-container .section-divider{
+.resume-sub-container .section-divider {
     display: flex;
     align-items: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
 
-.resume-sub-container .section-divider h3{
+.resume-sub-container .section-divider a{
+    margin-left: auto;
+}
+
+.resume-sub-container .section-divider h3 {
     font-size: 25px;
+    font-family: 'Poppins-Bold';
 }
 
-.resume-blk{
+.resume-blk {
     width: 10px;
     height: 10px;
     padding: 5px;
@@ -38,7 +44,58 @@
     margin-right: 10px;
 }
 
-.resume-head{
+.resume-head {
     font-size: 35px;
     font-family: 'Poppins-Bold';
+}
+
+.btn-blue {
+    display: block;
+    padding: 5px 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    transition: all 0.4s;
+    background-color: rgb(0, 80, 225);
+    color: #fff;
+    border: 2px solid rgb(0, 80, 225);
+}
+
+.btn-blue span {
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    font-family: 'Poppins-Light';
+    font-weight: 800;
+}
+
+.resume-sub-container .loading-blk{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.resume-sub-container .card{
+    display: flex;
+    background-color: #fff;
+    margin: 20px 0;
+    margin-bottom: 30px;
+    padding: 80px 40px;
+    box-shadow: rgba(138, 131, 124, 0.23) -11.31px 11.31px 25px 0px;
+}
+
+.card .timeline{
+    color: rgb(0, 80, 225);
+    font-weight: 'Poppins-Bold';
+    font-weight: 800;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.card .job-title{
+    font-family: 'Poppins-Light';
+    text-transform: uppercase;
 }

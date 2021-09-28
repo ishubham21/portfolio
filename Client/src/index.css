@@ -63,18 +63,3 @@ a, a:visited {
     transform: translateY(0);
   }
 }
-
-.btn-blue {
-  padding: 10px 15px;
-  border: 0;
-  outline: none;
-  cursor: pointer;
-  border-radius: 20px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-weight: 600;
-  transition: all 0.4s;
-  background-color: rgb(0, 80, 225);
-  color: #fff;
-  border: 2px solid rgb(0, 80, 225);
-}
