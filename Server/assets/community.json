@@ -1,3 +1,34 @@
 [
-    {}
+    {
+        "from": "July 2021",
+        "to": "Present",
+        "company": "Google Developer Student Clubs",
+        "position": "Lead",
+        "experience": [
+            "Partnered with 10+ GDSC chapters from different universities to conduct a nation-wide open-source event based on the theme of Google Summer of Code.",
+            "Collaborated with over 6 communities and 2 startups to enhance the community involvement of the members. Helped these communities in organizing national-level hackathons, workshops, and coding competitions.",
+            "Hosted workshops and events on a wide range of topics to help people in getting started in tech."
+        ],
+        "id": 3
+    },
+    {
+        "from": "Feb 2021",
+        "to": "Present",
+        "company": "Postman",
+        "position": "Student Leader",
+        "experience": [
+            "Conducting regular workshops and events to enhance API literacy i.e. help people know more about APIs."
+        ],
+        "id": 2
+    },
+    {
+        "from": "Jan 2021",
+        "to": "May 2021",
+        "company": "Script Foundation",
+        "position": "Web Developer",
+        "experience": [
+            "Worked in a team of 5 to develop Script Foundation's Trion Bootcamp's and Community Awards' website."
+        ],
+        "id": 1
+    }
 ]

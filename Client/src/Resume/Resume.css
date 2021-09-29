@@ -23,7 +23,7 @@
 .resume-sub-container .section-divider {
     display: flex;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 70px;
     margin-bottom: 40px;
 }
 
@@ -80,6 +80,7 @@
 
 .resume-sub-container .card{
     display: flex;
+    justify-content: space-between;
     background-color: #fff;
     margin: 20px 0;
     margin-bottom: 30px;
@@ -97,5 +98,23 @@
 
 .card .job-title{
     font-family: 'Poppins-Light';
+    margin-bottom: 5px;
     text-transform: uppercase;
+}
+
+.card .company-name{
+    font-family: 'Poppins-Bold';
+}
+
+.resume-sub-container .details{
+    flex: 0 0 35%;
+}
+
+.resume-sub-container .description{
+    flex: 0 0 60%;
+    color: #222;
+}
+
+.resume-sub-container .description li{
+    margin-bottom: 10px;
 }
