@@ -17,7 +17,7 @@
 }
 
 .position-section {
-    width: 40%;
+    width: 50%;
 }
 
 .resume-sub-container .section-divider {
@@ -80,7 +80,7 @@
 
 .resume-sub-container .card{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #fff;
     margin: 20px 0;
     margin-bottom: 30px;

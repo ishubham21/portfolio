@@ -5,19 +5,30 @@ import Card from './Card/Card'
 const Resume = () => {
 
     const [experiences, setExperience] = useState(null);
-    const [volunteering, setVolunteering] = useState(null);
+    const [communities, setCommunity] = useState(null);
+    const [volunteerings, setVolunteering] = useState(null);
 
     //show loading section, if not loaded
     const [notLoaded, setLoaded] = useState(true)
 
     useEffect(() => {
 
-        //fetching the experiences
+        //fetching the experiences - using endpoint since we already have a proxy set up in package.json
         fetch('/experience')
             .then(res => res.json())
             .then(data => {
                 console.log(data);
                 setExperience(data)
+                setLoaded(false)
+            })
+            .catch(err => console.error('Error encountered while fetching the data ' + err))
+
+        //fetching the community
+        fetch('/community')
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                setCommunity(data)
                 setLoaded(false)
             })
             .catch(err => console.error('Error encountered while fetching the data ' + err))
@@ -59,13 +70,23 @@ const Resume = () => {
                     ))}
 
                     <div className="section-divider">
+                        <h3>Communities</h3>
+                    </div>
+
+                    {notLoaded && <div className="loading-blk">Loading...</div>}
+
+                    {communities && communities.map((community) => (
+                        <Card experience={community} key={community.id} />
+                    ))}
+
+                    <div className="section-divider">
                         <h3>Volunteering</h3>
                     </div>
 
                     {notLoaded && <div className="loading-blk">Loading...</div>}
 
-                    {volunteering && volunteering.map((volunteer) => (
-                        <Card experience={volunteer} key={volunteer.id} />
+                    {volunteerings && volunteerings.map((volunteering) => (
+                        <Card experience={volunteering} key={volunteering.id} />
                     ))}
 
                 </div>
