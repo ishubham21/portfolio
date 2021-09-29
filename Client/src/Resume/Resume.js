@@ -1,11 +1,13 @@
 import './Resume.css'
 import { useState, useEffect } from 'react'
 import Card from './Card/Card'
+import AchivementsCard from './AchivementCard/AchivementsCard';
 
 const Resume = () => {
 
     const [experiences, setExperience] = useState(null);
     const [communities, setCommunity] = useState(null);
+    const [achivements, setAchivement] = useState(null);
     const [volunteerings, setVolunteering] = useState(null);
 
     //show loading section, if not loaded
@@ -19,6 +21,16 @@ const Resume = () => {
             .then(data => {
                 console.log(data);
                 setExperience(data)
+                setLoaded(false)
+            })
+            .catch(err => console.error('Error encountered while fetching the data ' + err))
+
+        //fetching the achivements
+        fetch('/achivements')
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                setAchivement(data)
                 setLoaded(false)
             })
             .catch(err => console.error('Error encountered while fetching the data ' + err))
@@ -77,6 +89,16 @@ const Resume = () => {
 
                     {communities && communities.map((community) => (
                         <Card experience={community} key={community.id} />
+                    ))}
+
+                    <div className="section-divider">
+                        <h3>Achivements</h3>
+                    </div>
+
+                    {notLoaded && <div className="loading-blk">Loading...</div>}
+
+                    {achivements && achivements.map((achivement) => (
+                        <AchivementsCard achivement={achivement} key={achivement.id} />
                     ))}
 
                     <div className="section-divider">
