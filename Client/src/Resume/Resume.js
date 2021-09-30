@@ -13,14 +13,17 @@ const Resume = () => {
     //show loading section, if not loaded
     const [notLoaded, setLoaded] = useState(true)
 
+    const resumeLink = 'https://drive.google.com/file/d/13uAU3y2mg1pzPsIsOS5nZNptgjeGZwBV/view?usp=sharing';
+
     useEffect(() => {
 
         //fetching the experiences - using endpoint since we already have a proxy set up in package.json
         fetch('/experience')
             .then(res => res.json())
             .then(data => {
-                console.log(data);
                 setExperience(data)
+
+                //setting notLoaded to false
                 setLoaded(false)
             })
             .catch(err => console.error('Error encountered while fetching the data ' + err))
@@ -29,9 +32,7 @@ const Resume = () => {
         fetch('/achivements')
             .then(res => res.json())
             .then(data => {
-                console.log(data);
                 setAchivement(data)
-                setLoaded(false)
             })
             .catch(err => console.error('Error encountered while fetching the data ' + err))
 
@@ -39,9 +40,7 @@ const Resume = () => {
         fetch('/community')
             .then(res => res.json())
             .then(data => {
-                console.log(data);
                 setCommunity(data)
-                setLoaded(false)
             })
             .catch(err => console.error('Error encountered while fetching the data ' + err))
 
@@ -49,9 +48,7 @@ const Resume = () => {
         fetch('/volunteering')
             .then(res => res.json())
             .then(data => {
-                console.log(data);
                 setVolunteering(data)
-                setLoaded(false)
             })
             .catch(err => console.error('Error encountered while fetching the data ' + err))
 
@@ -68,7 +65,7 @@ const Resume = () => {
 
                     <div className="section-divider">
                         <h3>Experience</h3>
-                        <a href="http://google.com" target="_blank" rel="noreferrer">
+                        <a href={resumeLink} target="_blank" rel="noreferrer">
                             <button className="btn-blue">
                                 <span>DOWNLOAD CV</span>
                             </button>

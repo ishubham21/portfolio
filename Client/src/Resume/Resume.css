@@ -119,3 +119,52 @@
 .resume-sub-container .description li{
     margin-bottom: 10px;
 }
+
+@media (max-width: 1024px){
+    .position-section{
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px){
+    .position-section{
+        width: 90%;
+    }
+}
+
+@media (max-width: 539px){
+    
+    .resume-head{
+        font-size: 29px;
+    }
+
+    .resume-sub-container{
+        padding-bottom: 50px;
+    }
+
+    .resume-sub-container .card{
+        padding: 40px 15px;
+        flex-wrap: wrap;
+    }
+
+    .resume-sub-container .section-divider{
+        margin-top: 40px;
+    }
+
+    .resume-sub-container .section-divider h3{
+        font-size: 18px;
+    }
+
+    .resume-sub-container .details, .resume-sub-container .description{
+        flex: 0 0 85%;
+        justify-content: center;
+    }
+    
+    .resume-sub-container .description{
+        margin-top: 20px;
+    }
+
+    .btn-blue span{
+        font-size: 10px;
+    }
+}
