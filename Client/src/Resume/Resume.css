@@ -1,0 +1,175 @@
+.resume-container {
+    min-height: 100vh;
+    background-color: rgb(230, 218, 206);
+    animation: fade_in 1s;
+}
+
+.resume-sub-container {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.resume-sub-container .heading {
+    display: flex;
+    align-items: center;
+}
+
+.position-section {
+    width: 50%;
+}
+
+.resume-sub-container .section-divider {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.resume-sub-container .section-divider a{
+    margin-left: auto;
+}
+
+.resume-sub-container .section-divider h3 {
+    font-size: 25px;
+    font-family: 'Poppins-Bold';
+}
+
+.resume-blk {
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    background-color: rgb(0, 80, 225);
+    margin-right: 10px;
+}
+
+.resume-head {
+    font-size: 35px;
+    font-family: 'Poppins-Bold';
+}
+
+.btn-blue {
+    display: block;
+    padding: 5px 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    transition: all 0.4s;
+    background-color: rgb(0, 80, 225);
+    color: #fff;
+    border: 2px solid rgb(0, 80, 225);
+}
+
+.btn-blue span {
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    font-family: 'Poppins-Light';
+    font-weight: 800;
+}
+
+.resume-sub-container .loading-blk{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.resume-sub-container .card{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    margin: 20px 0;
+    margin-bottom: 30px;
+    padding: 80px 40px;
+    box-shadow: rgba(138, 131, 124, 0.23) -11.31px 11.31px 25px 0px;
+}
+
+.card .timeline{
+    color: rgb(0, 80, 225);
+    font-weight: 'Poppins-Bold';
+    font-weight: 800;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.card .job-title{
+    font-family: 'Poppins-Light';
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.card .company-name{
+    font-family: 'Poppins-Bold';
+}
+
+.resume-sub-container .details{
+    flex: 0 0 35%;
+}
+
+.resume-sub-container .description{
+    flex: 0 0 60%;
+    color: #222;
+}
+
+.resume-sub-container .description li{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1024px){
+    .position-section{
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px){
+    .position-section{
+        width: 90%;
+    }
+}
+
+@media (max-width: 539px){
+    
+    .resume-head{
+        font-size: 29px;
+    }
+
+    .resume-sub-container{
+        padding: 50px 0;
+    }
+
+    .resume-sub-container .card{
+        padding: 40px 15px;
+        flex-wrap: wrap;
+    }
+
+    .resume-sub-container .section-divider{
+        margin-top: 40px;
+    }
+
+    .resume-sub-container .section-divider h3{
+        font-size: 18px;
+    }
+
+    .resume-sub-container .details, .resume-sub-container .description{
+        flex: 0 0 85%;
+        justify-content: center;
+    }
+    
+    .resume-sub-container .description{
+        margin-top: 20px;
+    }
+
+    .btn-blue span{
+        font-size: 10px;
+    }
+
+    .resume-blk{
+        padding: 3px;
+    }
+}

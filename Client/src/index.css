@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('./assets/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('./assets/fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('./assets/fonts/Poppins-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-xb';
+  src: url('./assets/fonts/Poppins-ExtraBold.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins-Regular';
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.App {
+  height: 100vh;
+  position: relative;
+}
+
+.navbar, .footer {
+  height: 10vh;
+}
+
+.text-bold {
+  font-family: 'Poppins-Bold';
+}
+
+@keyframes fade_in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes bottom_up {
+  0% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

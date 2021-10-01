@@ -1,0 +1,137 @@
+.project-container {
+    min-height: 100vh;
+    background-color: rgb(230, 218, 206);
+    animation: fade_in 1s;
+}
+
+.project-sub-container {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.project-sub-container .heading {
+    display: flex;
+    align-items: center;
+}
+
+.project-sub-container .position-section{
+    margin-top: 40px;
+}
+
+.project-sub-container .loading-blk{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.project-blk {
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    background-color: rgb(0, 80, 225);
+    margin-right: 10px;
+}
+
+.project-head {
+    font-size: 35px;
+    font-family: 'Poppins-Bold';
+}
+
+.project-sub-container .card{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    margin: 20px 0;
+    margin-bottom: 30px;
+    padding: 80px 40px;
+    box-shadow: rgba(138, 131, 124, 0.23) -11.31px 11.31px 25px 0px;
+}
+
+.card .project-name{
+    color: rgb(0, 80, 225);
+    font-weight: 'Poppins-Bold';
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.card .tech-stacks{
+    font-family: 'Poppins-Light';
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    margin-bottom: 20px;
+}
+
+.card .visit-project a{
+    font-family: 'Poppins-Bold';
+    color: rgb(0, 80, 225);
+}
+
+.project-sub-container .details{
+    flex: 0 0 32%;
+}
+
+.project-sub-container .description{
+    flex: 0 0 60%;
+    color: #222;
+}
+
+.project-sub-container .description li{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1024px){
+    .position-section{
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px){
+    .position-section{
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 539px){
+    
+    .project-head{
+        font-size: 29px;
+    }
+
+    .project-sub-container{
+        padding: 50px 0;
+    }
+
+    .project-sub-container .card{
+        padding: 40px 15px;
+        flex-wrap: wrap;
+    }
+
+    .project-sub-container .section-divider{
+        margin-top: 40px;
+    }
+
+    .project-sub-container .section-divider h3{
+        font-size: 18px;
+    }
+
+    .project-sub-container .details, .project-sub-container .description{
+        flex: 0 0 85%;
+        justify-content: center;
+    }
+    
+    .project-sub-container .description{
+        margin-top: 30px;
+    }
+
+    .project-blk{
+        padding: 3px;
+    }
+}
