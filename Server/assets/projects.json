@@ -9,7 +9,7 @@
             "Classification is done in the browser that ensures the security of user's data", 
             "Easify is capable of working in the background thus have an uptime of 24/7."
         ],
-        "id": 4
+        "id": 11
     },
     {
         "name": "Infinity-Skncure",
@@ -20,7 +20,7 @@
             "It is web-based(PWA) skin disease predictor that can predict over 10 skin diseases and can even suggest skin doctors in the proximity.",
             "Features include – Disease detection using images, real-time disease detection, appointment scheduling, skin health tracker, nearby dermatologists on an in-app Google Map, and a community section to post pictures and text in both public and private mode."
         ],
-        "id": 4
+        "id": 10
     },
     {
         "name": "Summarizer Command-Line Tool",
@@ -30,7 +30,7 @@
             "It is an interactive command-line interface tool to help you summarize exhaustive texts into smaller ones using text-analysis and Natural Language Processing.",
             "Users can simply locate the file containing the text that is to be summarized from the command line and print the result anywhere in their machines."
         ],
-        "id": 4
+        "id": 9
     },
     {
         "name": "Voice Enabled Code Compiler",
@@ -39,7 +39,7 @@
         "description": [
             "Developed an interactive online HTML, CSS and JavaScript code compiler with voice recognition to help visually impaired people in learning web technologies."
         ],
-        "id": 4
+        "id": 8
     },
     {
         "name": "Event Registration System",
@@ -49,7 +49,7 @@
             "This website is aimed to reduce the dependency of the college club on third-party resources to book tickets for the events. This project makes use of  Google's Firebase to server backend as a service.",
             "We've enabled this project to create dynamic events along with dynamic forms, and store the data of participants safely that can be retained in the form of .xls(excel) file."
         ],
-        "id": 4
+        "id": 7
     },
     {
         "name": "Technical Blog",
@@ -58,7 +58,7 @@
         "description": [
             "This website automatically picks up the content from my medium profile in the form of RSS feed, converts it into JSON and present it to the user."
         ],
-        "id": 4
+        "id": 6
     },
     {
         "name": "Cowin Availability",
@@ -67,7 +67,7 @@
         "description": [
             "A website built using Node, Express, and EJS, that shows the availability of the COVID-19 vaccine based on the user's area code."
         ],
-        "id": 4
+        "id": 5
     },
     {
         "name": "YouTube Scrapper",
@@ -87,7 +87,7 @@
             "This extension comes packed with 6 VS Code themes inspried by the colors of Marvel superheroes. It is a one-strop solution to save the user form downloading various scattered themes available on VSCode Marketplace.",
             "This extension has crossed over 1350 installations on VS Code."
         ],
-        "id": 4
+        "id": 3
     },
     {
         "name": "Simply Sway",
@@ -96,7 +96,7 @@
         "description": [
             "It is a Django-based restaurant utility system aimed to make cafes more efficient by replacing conventional waiter-customer model by smart devices."
         ],
-        "id": 4
+        "id": 2
     },
     {
         "name": "Twistopen Clone",
@@ -106,6 +106,6 @@
             "This website is a clone of the Twistopen website (https://twistopen.in)",
             "It took me 2 regular days to complete this website."
         ],
-        "id": 4
+        "id": 1
     }
 ]
