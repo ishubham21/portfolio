@@ -32,7 +32,7 @@ router.get('/volunteering', (req, res) => {
     res.send(volunteering)
 })
 
-//sending an error if the required page doesn't exist
+// //sending an error if the required page doesn't exist
 router.get('*', (req, res) => {
     res.status(404).send("The resource you are looking for does not exist.");
 })
