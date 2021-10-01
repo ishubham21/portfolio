@@ -6,6 +6,15 @@ import github from './../../assets/icons/logo-github.svg'
 import mail from './../../assets/icons/logo-mail.svg'
 
 const ImgContainer = () => {
+
+    const socialLinks = {
+        linkedin: 'https://linkedin.com/in/ishubham21',
+        mail: 'https://mail.google.com/mail/?view=cm&fs=1&to=sg2199203@gmail.com',
+        github: 'https://github.com/ishubham21',
+        phone: 'tel:+919950746862',
+        instagram: 'https://instagram.com/ishubham21'
+    }
+
     return (
         <div className="ImgContainer">
             <div className="img-container">
@@ -19,19 +28,19 @@ const ImgContainer = () => {
                 Software Developer
             </div>
             <div className="social-medias">
-                <a href="https://linkedin.com/in/ishubham21" target="_blank" rel="noreferrer">
+                <a href={socialLinks.linkedin} target="_blank" rel="noreferrer">
                     <img src={linkedin} alt="LinkedIn" />
                 </a>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sg2199203@gmail.com" target="_blank" rel="noreferrer">
+                <a href={socialLinks.mail} target="_blank" rel="noreferrer">
                     <img src={mail} alt="mail" />
                 </a>
-                <a href="https://github.com/ishubham21" target="_blank" rel="noreferrer">
+                <a href={socialLinks.github} target="_blank" rel="noreferrer">
                     <img src={github} alt="GitHub" />
                 </a>
-                <a href="tel:+919950746862" target="_blank" rel="noreferrer">
+                <a href={socialLinks.phone} target="_blank" rel="noreferrer">
                     <img src={call} alt="Phone" />
                 </a>
-                <a href="https://instagram.com/ishubham21" target="_blank" rel="noreferrer">
+                <a href={socialLinks.instagram} target="_blank" rel="noreferrer">
                     <img src={insta} alt="Instagram" />
                 </a>
             </div>
