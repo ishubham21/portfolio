@@ -9,7 +9,9 @@ const Projects = () => {
 
     //fetching the projects
     useEffect(() => {
-        fetch('https://portfolio-ishubham21.vercel.app/projects')
+        fetch('https://portfolio-ishubham21.vercel.app/projects', {
+            accept: 'application/json'
+        })
             .then(res => res.json())
             .then(data => {
                 setProjects(data)
