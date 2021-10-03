@@ -2,6 +2,10 @@ import './Resume.css'
 import { useState, useEffect } from 'react'
 import Card from './Card/Card'
 import AchivementsCard from './AchivementCard/AchivementsCard';
+import experienceData from './../assets/portfolio-data/experience'
+import achivementData from './../assets/portfolio-data/achivements'
+import communityData from './../assets/portfolio-data/community'
+import volunteeringData from './../assets/portfolio-data/volunteering'
 
 const Resume = () => {
 
@@ -18,37 +22,31 @@ const Resume = () => {
     useEffect(() => {
 
         //fetching the experiences - using endpoint since we already have a proxy set up in package.json
-        fetch('/experience')
-            .then(res => res.json())
-            .then(data => {
-                setExperience(data)
-
-                //setting notLoaded to false
+        fetch(experienceData)
+            .then(() => {
                 setLoaded(false)
+                setExperience(experienceData)
             })
             .catch(err => console.error('Error encountered while fetching the data ' + err))
 
         //fetching the achivements
-        fetch('/achivements')
-            .then(res => res.json())
-            .then(data => {
-                setAchivement(data)
+        fetch(achivementData)
+            .then(() => {
+                setAchivement(achivementData)
             })
             .catch(err => console.error('Error encountered while fetching the data ' + err))
 
         //fetching the community
-        fetch('/community')
-            .then(res => res.json())
-            .then(data => {
-                setCommunity(data)
+        fetch(communityData)
+            .then(() => {
+                setCommunity(communityData)
             })
             .catch(err => console.error('Error encountered while fetching the data ' + err))
 
         //fetching the volunteering
-        fetch('/volunteering')
-            .then(res => res.json())
-            .then(data => {
-                setVolunteering(data)
+        fetch(volunteeringData)
+            .then(() => {
+                setVolunteering(volunteeringData)
             })
             .catch(err => console.error('Error encountered while fetching the data ' + err))
 

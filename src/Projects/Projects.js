@@ -1,24 +1,22 @@
 import './Projects.css'
 import { useState, useEffect } from 'react'
 import Card from './Card/Card'
+import projectData from '../assets/portfolio-data/projects'
 
 const Projects = () => {
 
-    const [projects, setProjects] = useState(null)
     const [notLoaded, setLoaded] = useState(true)
+    const [projects, setProjects] = useState(null)
 
-    //fetching the projects
+    //checking if the projects are loaded or not
     useEffect(() => {
-        fetch('https://portfolio-ishubham21.vercel.app/projects', {
-            accept: 'application/json'
-        })
-            .then(res => res.json())
-            .then(data => {
-                setProjects(data)
+        fetch(projectData)
+            .then(() => {
                 setLoaded(false)
+                setProjects(projectData)
             })
-            .catch(err => console.error('An error occured' + err))
-    }, [])
+            .catch(err => console.log('An error occured - ' + err))
+    }, [projects])  //dependency array - check for the changes in projects
 
     return (
         <div className="project-container">
