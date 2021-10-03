@@ -18,11 +18,11 @@
     align-items: center;
 }
 
-.contact-sub-container .position-section{
+.contact-sub-container .position-section {
     margin-top: 40px;
 }
 
-.contact-sub-container .loading-blk{
+.contact-sub-container .loading-blk {
     text-align: center;
     margin-top: 50px;
     font-size: 20px;
@@ -40,3 +40,103 @@
     font-size: 35px;
     font-family: 'Poppins-Bold';
 }
+
+.contact-sub-container .form{
+    background-color: #fff;
+    padding: 40px;
+}
+
+.contact-sub-container .details-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-sub-container .form label{
+    display: block;
+    flex: 0 0 45%;
+    font-family: 'Poppins-Bold';
+    margin-bottom: 50px;
+}
+
+.contact-sub-container .form input{
+    display: block;
+    width: 100%;
+}
+
+.contact-sub-container .form textarea{
+    display: block;
+    width: 100%;
+}
+
+.contact-sub-container .form .label-textarea{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contact-sub-container .form input, .contact-sub-container .form textarea{
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #000;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Poppins-Light';
+    letter-spacing: 0.06em;
+}
+
+.contact-sub-container .send{
+    padding: 10px 15px;
+    background-color: rgb(0, 80, 225);
+    color: #fff;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 80, 225);
+    outline: none;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-family: 'Poppins-Bold';
+    font-size: 14px;
+}
+
+.contact-sub-container .success-blk{
+    position: absolute;
+    bottom: 125px;
+    background-color: rgba(0, 0 , 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    animation: bottom_up 1s;
+}
+
+.display-none{
+    display: none;
+}
+
+
+@media (max-width: 539px){
+    .contact-head{
+        font-size: 29px;
+    }
+
+    .contact-sub-container .form{
+        padding: 25px;
+    }
+    
+    .contact-sub-container .details-container{
+        flex-wrap: wrap;
+    }
+
+    .contact-sub-container .form label{
+        flex: 0 0 100%;
+    }
+
+    .contact-sub-container .send{
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .contact-sub-container .success-blk{
+        bottom: 60px;
+        padding: 12px;
+        font-size: 14px;
+    }
+}
+    
+

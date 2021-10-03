@@ -25,7 +25,7 @@ app.post('/sendMail', urlencodedParser, (req, res) => {
     sendMail(req.body.userName, req.body.userEmail, req.body.userMsg)
     
     //sending a positive response upon completion
-    res.status(200).send('Email has been sent')
+    res.status(200).send('Email sent')
 })
 
 app.listen(port, function () {
