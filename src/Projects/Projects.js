@@ -9,7 +9,7 @@ const Projects = () => {
 
     //fetching the projects
     useEffect(() => {
-        fetch('/projects')
+        fetch('https://portfolio-ishubham21.vercel.app/projects')
             .then(res => res.json())
             .then(data => {
                 setProjects(data)
