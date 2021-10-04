@@ -13,11 +13,11 @@ Hey, visitor! So this is my portfolio website that lists my elevator-pitch, my o
     <img alt="Resume" src="https://github.com/ishubham21/portfolio/blob/master/readme-assets/2.png?raw=true">
 </div>
 <div>
-    Resume Section
+    Projects Section
     <img alt="Resume" src="https://github.com/ishubham21/portfolio/blob/master/readme-assets/3.png?raw=true">
 </div>
 <div>
-    Resume Section
+    Contact Section
     <img alt="Resume" src="https://github.com/ishubham21/portfolio/blob/master/readme-assets/4.png?raw=true">
 </div>
 
