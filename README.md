@@ -5,22 +5,19 @@ Hey, visitor! So this is my portfolio website that lists my elevator-pitch, my o
 ## Website Preview 
 
 <div>
-    **Home Page**
+    Home Page
     <img alt="Homepage" src="https://github.com/ishubham21/portfolio/blob/master/readme-assets/1.png?raw=true">
 </div>
-
 <div>
-    **Resume Section**
+    Resume Section
     <img alt="Resume" src="https://github.com/ishubham21/portfolio/blob/master/readme-assets/2.png?raw=true">
 </div>
-
 <div>
-    **Projects Section**
+    Projects Section
     <img alt="Resume" src="https://github.com/ishubham21/portfolio/blob/master/readme-assets/3.png?raw=true">
 </div>
-
 <div>
-    **Contact Section**
+    Contact Section
     <img alt="Resume" src="https://github.com/ishubham21/portfolio/blob/master/readme-assets/4.png?raw=true">
 </div>
 
