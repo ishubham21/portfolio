@@ -5,8 +5,8 @@ const experiences = [
         company: "InterviewBit",
         position: "Technical Content Writer",
         experience: [
-            "Worked closely with the Data Structures and Algortihms (DSA) team to produce 15+ articles on DSA for the Scaler Hub",
-            "Worked with the Technical Content Engineering Team to assit in reviewing articles written for Scaler Topics."
+            "Worked closely with the Data Structures and Algorithms (DSA) team to produce 15+ articles on DSA for the Scaler Hub",
+            "Worked with the Technical Content Engineering Team to assist in reviewing articles written for Scaler Topics."
         ],
         id: 4
     },
@@ -30,7 +30,7 @@ const experiences = [
         position: "Full Stack Web Developer",
         experience: [
             "Lead the web development team, and Worked on some major projects including the community website and a Central Event Management System.", 
-            "Led a team of 5 developers to develop a web-based event reservation system - Used Google Firebase to collect and store the user data, added functionality of downloading the regeistration data in Excel (.xls) format.",
+            "Led a team of 5 developers to develop a web-based event reservation system - Used Google Firebase to collect and store the user data, added functionality of downloading the registration data in Excel (.xls) format.",
             "Created a centralized dashboard and implemented cipher authentication to enhance the security of the system."
         ],
         id: 2
