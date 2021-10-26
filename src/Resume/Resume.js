@@ -1,11 +1,7 @@
 import './Resume.css'
 import { useState, useEffect } from 'react'
 import Card from './Card/Card'
-import AchivementsCard from './AchivementCard/AchivementsCard';
-import experienceData from './../assets/portfolio-data/experience'
-import achivementData from './../assets/portfolio-data/achivements'
-import communityData from './../assets/portfolio-data/community'
-import volunteeringData from './../assets/portfolio-data/volunteering'
+import AchivementsCard from './AchivementCard/AchivementsCard'
 
 const Resume = () => {
 
@@ -21,36 +17,15 @@ const Resume = () => {
 
     useEffect(() => {
 
-        //fetching the experiences - using endpoint since we already have a proxy set up in package.json
-        fetch(experienceData)
-            .then(() => {
-                setLoaded(false)
-                setExperience(experienceData)
-            })
-            .catch(err => console.error('Error encountered while fetching the data ' + err))
+        //setting experience, communities, achivements, volunterring
+        setExperience(require('./../assets/portfolio-data/experience.json'))
+        setCommunity(require('./../assets/portfolio-data/community.json'))
+        setAchivement(require('./../assets/portfolio-data/achivements.json'))
+        setVolunteering(require('./../assets/portfolio-data/volunteering.json'))
 
-        //fetching the achivements
-        fetch(achivementData)
-            .then(() => {
-                setAchivement(achivementData)
-            })
-            .catch(err => console.error('Error encountered while fetching the data ' + err))
-
-        //fetching the community
-        fetch(communityData)
-            .then(() => {
-                setCommunity(communityData)
-            })
-            .catch(err => console.error('Error encountered while fetching the data ' + err))
-
-        //fetching the volunteering
-        fetch(volunteeringData)
-            .then(() => {
-                setVolunteering(volunteeringData)
-            })
-            .catch(err => console.error('Error encountered while fetching the data ' + err))
-
-    }, [])
+        //setting it to false - for slow networks
+        setLoaded(false)
+    }, [experiences, communities, achivements, volunteerings])
 
     return (
         <div className="resume-container">
