@@ -6,6 +6,8 @@
     align-items: center;
     position: relative;
     animation: fade_in 1s;
+    color: #000;
+    background-color: #fff;
 }
 
 .bg-color{
@@ -15,7 +17,7 @@
     height: 100%;
     width: 40%;
     background-color: rgb(230, 218, 206);
-    z-index: -1;
+    z-index: 2;
 }
 
 .home-wrapper{
@@ -23,6 +25,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: #fff;
 }
 
 .home-wrapper .ImgContainer, .home-wrapper .DescContainer{
@@ -71,6 +74,7 @@
 .ImgContainer h2{
     line-height: 1.2em;
     font-family: 'Poppins-Bold';
+    color: #000;
 }
 
 .ImgContainer .break-line{
@@ -87,6 +91,7 @@
     font-family: 'Poppins-light';
     font-weight: 100;
     text-transform: uppercase;
+    color: #000;
 }
 
 .ImgContainer .img-container img{
@@ -150,6 +155,7 @@
 .DescContainer .btn-container .project-btn{
     border: 1px solid #000;
     background-color: #fff;
+    color: #000;
 }
 
 .DescContainer .btn-container .project-btn:hover{

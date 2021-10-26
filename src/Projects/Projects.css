@@ -13,6 +13,10 @@
     padding-bottom: 100px;
 }
 
+.project-head, .project-sub-container .heading, .project-sub-container .tech-stacks{
+    color: #000;
+}
+
 .project-sub-container .heading {
     display: flex;
     align-items: center;

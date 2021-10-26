@@ -51,6 +51,10 @@
     font-family: 'Poppins-Bold';
 }
 
+.resume-head, .resume-sub-container .section-divider h3, .resume-sub-container .timeline, .resume-sub-container .job-title, .resume-sub-container .company-name{
+    color: #000;
+}
+
 .btn-blue {
     display: block;
     padding: 5px 15px;

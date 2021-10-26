@@ -48,6 +48,7 @@
 
 .contact-sub-container .details-container{
     display: flex;
+    background-color: #fff;
     justify-content: space-between;
 }
 
@@ -56,6 +57,8 @@
     flex: 0 0 45%;
     font-family: 'Poppins-Bold';
     margin-bottom: 50px;
+    background-color: #fff;
+    color: #000;
 }
 
 .contact-sub-container .form input{

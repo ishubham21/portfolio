@@ -27,6 +27,7 @@
 .navbar .nav-designation, .navbar .nav-link-container a{
     text-transform: uppercase;
     letter-spacing: 0.12em;
+    color: #000;
 }
 
 .navbar .nav-name, .navbar .nav-designation, .navbar .slash{

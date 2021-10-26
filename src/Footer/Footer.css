@@ -3,6 +3,7 @@
     align-items: center;
     font-size: 14px;
     background-color: #fff;
+    color: #000;
 }
 
 .footer .sub-container{
@@ -32,6 +33,10 @@
 
 .footer .social-icons a{
     margin-left: 11px;
+}
+
+.footer .license-container, .footer .social-container, .footer .social-container .sub-box{
+    color: #000;
 }
 
 .footer .social-icons img{
