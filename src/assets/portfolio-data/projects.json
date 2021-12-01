@@ -1,5 +1,18 @@
 [
     {
+        "name": "Break",
+        "githubLink": "https://github.com/ishubham21/break",
+        "techstacks": "React, Node, ExpressJS, MongoDB, JWT",
+        "description": [
+            "Break is an online-code-executor (sandbox environment) where users can not only run their code online but also save it for later. It currently supports all the major programming languages including C, C++, Java, Python, and JavaScript.",
+            "Break makes use of React to facilitate the frontend of the application, Node & Express as the backend, and MongoDB as the database.",
+            "Migrated the backend from a monolithic to a microservice-based architecture where each module is a completely different API working towards solving a particular problem.", 
+            "Implemented a JWT-based user-authentication system. Additionally, secured all the API routes using the same JWT-verification middleware.",
+            "Indexed the database collections around userID, and codeID respectively for facilitating a faster query response."
+        ],
+        "id": 12
+    },
+    {
         "name": "Easify",
         "githubLink": "https://github.com/MLH-Fellowship/pod-3.1.0-easify",
         "techstacks": "HTML, CSS, JavaScript, NodeJS, CoachkroachDB, YouTube API, MorphCast SDK",
