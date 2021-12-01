@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Shubham's Portfolio",
+  "name": "Shubham's Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -32,7 +32,7 @@
   "related_applications": [
     {
       "platform": "webapp",
-      "url": "https://shubham-portfolio.vercel.app"
+      "url": "https://iamshubham.tech"
     }
   ],
   "prefer_related_applications": true
