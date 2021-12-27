@@ -9,8 +9,8 @@ const Footer = () => {
             <div className="sub-container">
 
                 <div className="license-container">
-                    <p>© 2021 by <strong> Shubham Gautam </strong></p>
-                    <p>All rights reserved</p>
+                    <p>By <strong> Shubham Gautam </strong></p>
+                    <p>No copyright issues ©.</p>
                 </div>
 
                 <div className="social-container">
