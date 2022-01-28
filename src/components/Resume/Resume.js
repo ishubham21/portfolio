@@ -13,15 +13,15 @@ const Resume = () => {
     //show loading section, if not loaded
     const [notLoaded, setLoaded] = useState(true)
 
-    const resumeLink = 'https://drive.google.com/file/d/1Aywy_nNhixjW-g236SCX3wV7cCzh-g7F/view?usp=sharing';
+    const resumeLink = 'https://drive.google.com/file/d/1WsmswOGpwr6PUF9Gi9dAVoRTIK5AVPdc/view?usp=sharing';
 
     useEffect(() => {
 
         //setting experience, communities, achivements, volunterring
-        setExperience(require('./../assets/portfolio-data/experience.json'))
-        setCommunity(require('./../assets/portfolio-data/community.json'))
-        setAchivement(require('./../assets/portfolio-data/achivements.json'))
-        setVolunteering(require('./../assets/portfolio-data/volunteering.json'))
+        setExperience(require('./../../assets/portfolio-data/experience.json'))
+        setCommunity(require('./../../assets/portfolio-data/community.json'))
+        setAchivement(require('./../../assets/portfolio-data/achivements.json'))
+        setVolunteering(require('./../../assets/portfolio-data/volunteering.json'))
 
         //setting it to false - for slow networks
         setLoaded(false)

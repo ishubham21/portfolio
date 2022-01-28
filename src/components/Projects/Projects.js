@@ -8,7 +8,7 @@ const Projects = () => {
     const [projects, setProjects] = useState(null)
 
     useEffect(() => {
-        setProjects(require('./../assets/portfolio-data/projects.json'))
+        setProjects(require('./../../assets/portfolio-data/projects.json'))
         setLoaded(false)
     }, [projects])
 
