@@ -1,7 +1,7 @@
 import './Footer.css'
-import github from './../assets/icons/logo-github.svg'
-import linkedin from './../assets/icons/logo-linkedin.svg'
-import instagram from './../assets/icons/logo-instagram.svg'
+import github from './../../assets/icons/logo-github.svg'
+import linkedin from './../../assets/icons/logo-linkedin.svg'
+import instagram from './../../assets/icons/logo-instagram.svg'
 
 const Footer = () => {
     return (

@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Home from './Home/Home';
-import Resume from './Resume/Resume';
-import Projects from './Projects/Projects';
-import Contact from './Contact/Contact';
-import Navbar from './Navbar/Navbar';
-import Footer from './Footer/Footer';
+import Home from './components/Home/Home';
+import Resume from './components/Resume/Resume';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Router>

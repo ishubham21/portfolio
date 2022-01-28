@@ -1,9 +1,9 @@
-import myImg from './../../assets/imgs/faceimg.jpg'
-import insta from './../../assets/icons/logo-instagram.svg'
-import linkedin from './../../assets/icons/logo-linkedin.svg'
-import call from './../../assets/icons/call-outline.svg'
-import github from './../../assets/icons/logo-github.svg'
-import mail from './../../assets/icons/logo-mail.svg'
+import myImg from './../../../assets/imgs/faceimg.jpg'
+import insta from './../../../assets/icons/logo-instagram.svg'
+import linkedin from './../../../assets/icons/logo-linkedin.svg'
+import call from './../../../assets/icons/call-outline.svg'
+import github from './../../../assets/icons/logo-github.svg'
+import mail from './../../../assets/icons/logo-mail.svg'
 
 const ImgContainer = () => {
 
