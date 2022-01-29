@@ -1,3 +1,4 @@
+import React from 'react';
 const AchivementsCard = ({achivement}) => {
     return (
         <div className="card">

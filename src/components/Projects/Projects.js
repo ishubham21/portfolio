@@ -1,3 +1,4 @@
+import React from 'react';
 import './Projects.css'
 import { useState, useEffect } from 'react'
 import Card from './Card/Card'
