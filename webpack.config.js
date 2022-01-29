@@ -6,7 +6,7 @@ module.exports = {
     mode: 'development',
     entry: "./src/index.js", // bundle's entry point
     output: {
-        path: path.resolve(__dirname, 'dist'), // output directory
+        path: path.resolve(__dirname, 'build'), // output directory
         filename: "[name].js" // name of the generated bundle - dynamic
     },
     module: {
