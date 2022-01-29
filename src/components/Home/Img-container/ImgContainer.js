@@ -1,3 +1,4 @@
+import React from 'react';
 import myImg from './../../../assets/imgs/faceimg.jpg'
 import insta from './../../../assets/icons/logo-instagram.svg'
 import linkedin from './../../../assets/icons/logo-linkedin.svg'

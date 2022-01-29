@@ -1,3 +1,4 @@
+import React from 'react';
 import './Resume.css'
 import { useState, useEffect } from 'react'
 import Card from './Card/Card'
