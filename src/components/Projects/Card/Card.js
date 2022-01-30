@@ -1,4 +1,3 @@
-import React from 'react';
 const Card = ({project}) => {
     return(
         <div className="card">

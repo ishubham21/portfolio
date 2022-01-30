@@ -1,4 +1,3 @@
-import React from 'react';
 import './Home.css'
 import ImgContainer from './Img-container/ImgContainer';
 import DescContainer from './Desc-container/DescContainer';
