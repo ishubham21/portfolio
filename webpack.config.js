@@ -39,6 +39,7 @@ module.exports = {
             favicon: "./public/favicon.ico",
             filename: "index.html",
             manifest: "./public/manifest.json",
+            inject: "body"
         }),
         new MiniCssExtractPlugin()
     ],
