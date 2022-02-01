@@ -10,7 +10,7 @@ const Footer = () => {
 
                 <div className="license-container">
                     <p>By <strong> Shubham Gautam </strong></p>
-                    <p>No © copyright issues.</p>
+                    <p>No © copyright issues :)</p>
                 </div>
 
                 <div className="social-container">
