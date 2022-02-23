@@ -7,8 +7,10 @@ const CopyPlugin = require("copy-webpack-plugin")
 const BUILD_DIR = path.join(__dirname, 'build')
 const APP_DIR = path.join(__dirname, 'src')
 
+//vendor libs
 const VENDOR_LIBS = ['react', 'react-dom',]
 
+//exporting common configs
 module.exports = {
     entry: {
         app: APP_DIR + "/index.js",
@@ -40,17 +42,11 @@ module.exports = {
                 ],
             },
             {
-                //For fonts
-                test: /\.(woff|woff2|ttf|otf|eot)$/,
-                use: [
-                    {
-                        //using file-loader too
-                        loader: 'file-loader',
-                        options: {
-                            outputPath: 'fonts'
-                        }
-                    }
-                ]
+                test: /\.(woff|woff2|eot|ttf|otf)$/i,
+                type: "asset/resource",
+                generator: {
+                    filename: "fonts/[name][ext][query]",
+                },
             },
             {
                 //For favicon
