@@ -3,18 +3,22 @@ import { Link, NavLink } from 'react-router-dom'
 import './Navbar.css'
 
 const Navbar = () => {
-    
+
     //state to toggle menu
     const [menuOpen, setMenu] = useState(false)
-    
-    //function to change menuOpen state 
+
+    //function to change menuOpen state + adding a scroll lock
     const toggleMenu = (e) => {
-        if(menuOpen)
+        if (menuOpen) {
             setMenu(false)
-        else
+            document.body.style.overflow = "scroll"
+        }
+        else {
             setMenu(true)
+            document.body.style.overflow = "hidden"
+        }
     }
-     
+
     return (
         <nav className="navbar">
             <div className="nav-sub-container">
@@ -40,7 +44,7 @@ const Navbar = () => {
                     <NavLink to='/contact' className="nav-links" activeClassName="link-active">Contact</NavLink>
                 </div>
 
-                <div className={`mobile-nav ${menuOpen ? 'animate-ham': ''}`}>
+                <div className={`mobile-nav ${menuOpen ? 'animate-ham' : ''}`}>
                     <div className={`nav-ham`} onClick={toggleMenu}>
                         <span></span>
                         <span></span>
