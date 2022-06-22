@@ -13,7 +13,7 @@ const Resume = () => {
     //show loading section, if not loaded
     const [notLoaded, setLoaded] = useState(true)
 
-    const resumeLink = 'https://drive.google.com/file/d/1WsmswOGpwr6PUF9Gi9dAVoRTIK5AVPdc/view?usp=sharing';
+    const resumeLink = 'https://resume.meshubham.live';
 
     useEffect(() => {
 
