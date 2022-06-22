@@ -1,7 +1,20 @@
 [
     {
-        "from": "May 2021",
+        "from": "May 2022",
         "to": "Present",
+        "company": "Warmspace",
+        "position": "Full Stack Engineer Intern",
+        "experience": [
+            "Worked on writing Github Actions to facilitate Continous Integration and developing a Continous Deployment pipeline for automated deployment on Cloudflare.",
+            "Working on writing tests for components using Jest + React Testing Library. Successful in raising the test coverage from 3.16% to 21.36% (increasing currently).",
+            "Used React + Typescript to develop multiple features for the Gathering space (Zoom gathering like product) and to resolve UI bugs.",
+            "Researching about different products and comparing them to make engineering decisions about internal products."
+        ],
+        "id": 5
+    },
+    {
+        "from": "May 2021",
+        "to": "Nov 2021",
         "company": "InterviewBit",
         "position": "Technical Content Writer",
         "experience": [
