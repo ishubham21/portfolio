@@ -21,7 +21,7 @@ const DescContainer = () => {
                 I'm an engineering undergrad and a programmer. I work as a Full-Stack Web Developer with experience in handling JavaScript, Node, React and Angular coding, designs and extensions.
             </div>
             <div className="bio-paragraph">
-                I've been an MLH Fellow (Summer' 21) and I love developing software solutions and tackling challenges using new technologies. I'm currently an SDE Intern at Warmspace. Oh also, I love commuities! I Have been a Lead at Google DSC, Postman Student Community, and an MLSA :)
+                I've been an MLH Fellow (Summer' 21) and I love developing software solutions and tackling challenges using new technologies, and I'm currently an SDE Intern at Warmspace.
             </div>
         </div>
     )
