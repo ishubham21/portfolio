@@ -15,10 +15,6 @@ const Footer = () => {
 
                 <div className="social-container">
                     <div className="sub-box">
-                        <p className="text-bold">Call</p>
-                        <p className="content">99507 46862</p>
-                    </div>
-                    <div className="sub-box">
                         <p className="text-bold">Write</p>
                         <p className="content">ishubham2101@gmail.com</p>
                     </div>
