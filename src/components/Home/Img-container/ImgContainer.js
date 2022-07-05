@@ -37,9 +37,6 @@ const ImgContainer = () => {
                 <a href={socialLinks.github} target="_blank" rel="noreferrer">
                     <img src={github} alt="GitHub" />
                 </a>
-                <a href={socialLinks.phone} target="_blank" rel="noreferrer">
-                    <img src={call} alt="Phone" />
-                </a>
                 <a href={socialLinks.instagram} target="_blank" rel="noreferrer">
                     <img src={insta} alt="Instagram" />
                 </a>
