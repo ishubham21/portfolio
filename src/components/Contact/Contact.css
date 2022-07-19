@@ -1,5 +1,5 @@
 .contact-container {
-    min-height: 100vh;
+    min-height: 80vh;
     background-color: rgb(230, 218, 206);
     animation: fade_in 1s;
 }
@@ -86,17 +86,26 @@
     letter-spacing: 0.06em;
 }
 
-.contact-sub-container .send{
+.contact-sub-container .send_default{
     padding: 10px 15px;
-    background-color: rgb(0, 80, 225);
     color: #fff;
     border-radius: 15px;
-    border: 1px solid rgb(0, 80, 225);
     outline: none;
     transition: 0.3s;
     text-transform: uppercase;
     font-family: 'Poppins-Bold';
     font-size: 14px;
+}
+
+.contact-sub-container .send{
+    border: 1px solid rgb(0, 80, 225);
+    background-color: rgb(0, 80, 225);
+}
+
+.contact-sub-container .send_inactive{
+    border: 1px solid #6a9ff6;
+    background-color: #6a9fff;
+    cursor: not-allowed;
 }
 
 .contact-sub-container .success-blk{

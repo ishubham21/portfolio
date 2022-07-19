@@ -2,7 +2,6 @@
   "name": "portfolio-shubham",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://portfolio-ishubham21.vercel.app/",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
