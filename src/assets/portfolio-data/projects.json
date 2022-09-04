@@ -7,7 +7,7 @@
             "Finalist project under Smart India Hackathon 2022.", 
             "Developed a modular monolithic service-based MVC architecture with a docker-run postgres database instance.",
             "Dockerized the API using docker-compose to speed up the development processes on different OS, and to help the production version distribute quickly as per the load requirements.",
-            "Used Prisma as an ORM to generate migrations, querying & deploying the database, improving the query response time, and maintaining an admin dashboard.",
+            "Used Prisma as an ORM (Object Relational Model) to generate migrations, querying & deploying the database, improving the query response time, and maintaining an admin dashboard.",
             "Two separate platforms have been created so that children will only have access to a few resources that will benefit them.",
             "In-app profile: To keep the application safe and child protected, an in-app feature has been induced which will keep kids from using their parents' mail id for any other activity outside the app.",
             "The project is built as a PWA with the enabled capacity of AI-guided yoga powered by tensorflow and posenet."
