@@ -1,8 +1,37 @@
 [
     {
+        "name": "Sumedha",
+        "githubLink": "https://github.com/ishubham21/sih-backend",
+        "techstacks": "Typescript (NodeJS), Express, React (JavaScript), PostgresSQL, Prisma (ORM), Docker, Tensorflow, PoseNet, Jest, Github Action (CI/CD), Sentry",
+        "description": [
+            "Finalist project under Smart India Hackathon 2022.", 
+            "Developed a modular monolithic service-based MVC architecture with a docker-run postgres database instance.",
+            "Dockerized the API using docker-compose to speed up the development processes on different OS, and to help the production version distribute quickly as per the load requirements.",
+            "Used Prisma as an ORM to generate migrations, querying & deploying the database, improving the query response time, and maintaining an admin dashboard.",
+            "Two separate platforms have been created so that children will only have access to a few resources that will benefit them.",
+            "In-app profile: To keep the application safe and child protected, an in-app feature has been induced which will keep kids from using their parents' mail id for any other activity outside the app.",
+            "The project is built as a PWA that also combines the future of the world and the heritage of India, which are AI and Yoga respectively."
+        ],
+        "id": 11
+    },
+    {
+        "name": "Cube NPM Package",
+        "githubLink": "https://github.com/ishubham21/cube-package",
+        "techstacks": "Typescript, NodeJS, Jest, Shell, Github Action (CI/CD)",
+        "description": [
+            "Cube Package takes your markdown and parses it into HTML. It can be plugged with any JS/TS framework and helps you in parsing markdown as String, HTMLDivElement, and Blob", 
+            "Consistency across imports - Use it with commonjs or module, it works with both!",
+            "Typescript support - Shipping the Typescript types used in the package to help maintain the consistency around the codebase",
+            "Smaller bundle size - Since only distribution files are exported, the bundle size is optimised for all the use-cases.",
+            "Source Maps - The distribution version of Cube Package also contains source maps for efficient debugging.",
+            "0 Dependencies - Having no dependencies makes cube package a great choice for developers who care about getting work done with speed!"
+        ],
+        "id": 10
+    },
+    {
         "name": "Flash Generate",
         "githubLink": "https://github.com/ishubham21/flash-generate",
-        "techstacks": "Node.js, TypeScript, React, Webpack, Babel, Webpack & Babel Plugins",
+        "techstacks": "Node.js, Typescript, React, Webpack, Babel, Webpack & Babel Plugins",
         "description": [
             "Just like Create-React-App, Flash is a beginner-friendly template generator for React applications.",
             "Flash covers all the major things required in a React application along with optimized build (production and development) times and efficient debugging using source maps.", 
@@ -10,7 +39,7 @@
             "Made use of Yarn (over NPM), and a pre-generated lock-file to save time taken in linking the dependencies and thus, reducing the overall installation time.",
             "Made use of hot-reloading and source maps to elevate the debugging process for both production and the development environment."
         ],
-        "id": 11
+        "id": 9
     },
     {
         "name": "Break",
@@ -23,7 +52,7 @@
             "Implemented a JWT-based user-authentication system. Additionally, secured all the API routes using the same JWT-verification middleware.",
             "Indexed the database collections around userID, and codeID respectively for facilitating a faster query response."
         ],
-        "id": 10
+        "id": 8
     },
     {
         "name": "Easify",
@@ -35,7 +64,7 @@
             "Classification is done in the browser that ensures the security of user's data", 
             "Easify is capable of working in the background thus have an uptime of 24/7."
         ],
-        "id": 9
+        "id": 7
     },
     {
         "name": "Infinity-Skncure",
@@ -46,7 +75,7 @@
             "It is web-based(PWA) skin disease predictor that can predict over 10 skin diseases and can even suggest skin doctors in the proximity.",
             "Features include – Disease detection using images, real-time disease detection, appointment scheduling, skin health tracker, nearby dermatologists on an in-app Google Map, and a community section to post pictures and text in both public and private mode."
         ],
-        "id": 8
+        "id": 6
     },
     {
         "name": "Summarizer Command-Line Tool",
@@ -56,16 +85,7 @@
             "It is an interactive command-line interface tool to help you summarize exhaustive texts into smaller ones using text-analysis and Natural Language Processing.",
             "Users can simply locate the file containing the text that is to be summarized from the command line and print the result anywhere in their machines."
         ],
-        "id": 7
-    },
-    {
-        "name": "Voice Enabled Code Compiler",
-        "githubLink": "https://ishubham21.github.io/voice-enabled-online-code-editor/",
-        "techstacks": "NodeJS, JavaScript, MonkeyLearn API",
-        "description": [
-            "Developed an interactive online HTML, CSS and JavaScript code compiler with voice recognition to help visually impaired people in learning web technologies."
-        ],
-        "id": 6
+        "id": 5
     },
     {
         "name": "Event Registration System",
@@ -75,7 +95,7 @@
             "This website is aimed to reduce the dependency of the college club on third-party resources to book tickets for the events. This project makes use of  Google's Firebase to server backend as a service.",
             "We've enabled this project to create dynamic events along with dynamic forms, and store the data of participants safely that can be retained in the form of .xls(excel) file."
         ],
-        "id": 5
+        "id": 4
     },
     {
         "name": "Technical Blog",
@@ -84,7 +104,7 @@
         "description": [
             "This website automatically picks up the content from my medium profile in the form of RSS feed, converts it into JSON and present it to the user."
         ],
-        "id": 4
+        "id": 3
     },
     {
         "name": "Cowin Availability",
@@ -93,7 +113,7 @@
         "description": [
             "A website built using Node, Express, and EJS, that shows the availability of the COVID-19 vaccine based on the user's area code."
         ],
-        "id": 3
+        "id": 2
     },
     {
         "name": "Avengers VS Code Extension",
@@ -102,15 +122,6 @@
         "description": [
             "This extension comes packed with 6 VS Code themes inspried by the colors of Marvel superheroes. It is a one-strop solution to save the user form downloading various scattered themes available on VSCode Marketplace.",
             "This extension has crossed over 1350 installations on VS Code."
-        ],
-        "id": 2
-    },
-    {
-        "name": "Simply Sway",
-        "githubLink": "https://github.com/Simpli-Sway/Restaurant-Software",
-        "techstacks": "Django, Python, SQLite, JavaScript, Jinja",
-        "description": [
-            "It is a Django-based restaurant utility system aimed to make cafes more efficient by replacing conventional waiter-customer model by smart devices."
         ],
         "id": 1
     }

@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './components/Home/Home';
 import Resume from './components/Resume/Resume';
@@ -7,6 +8,11 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer'
 
 const App = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="App">
       <Router>
