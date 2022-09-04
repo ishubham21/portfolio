@@ -10,7 +10,7 @@
             "Used Prisma as an ORM to generate migrations, querying & deploying the database, improving the query response time, and maintaining an admin dashboard.",
             "Two separate platforms have been created so that children will only have access to a few resources that will benefit them.",
             "In-app profile: To keep the application safe and child protected, an in-app feature has been induced which will keep kids from using their parents' mail id for any other activity outside the app.",
-            "The project is built as a PWA that also combines the future of the world and the heritage of India, which are AI and Yoga respectively."
+            "The project is built as a PWA with the enabled capacity of AI-guided yoga powered by tensorflow and posenet."
         ],
         "id": 10
     },
