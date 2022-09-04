@@ -12,7 +12,7 @@
             "In-app profile: To keep the application safe and child protected, an in-app feature has been induced which will keep kids from using their parents' mail id for any other activity outside the app.",
             "The project is built as a PWA that also combines the future of the world and the heritage of India, which are AI and Yoga respectively."
         ],
-        "id": 11
+        "id": 10
     },
     {
         "name": "Cube NPM Package",
@@ -26,7 +26,7 @@
             "Source Maps - The distribution version of Cube Package also contains source maps for efficient debugging.",
             "0 Dependencies - Having no dependencies makes cube package a great choice for developers who care about getting work done with speed!"
         ],
-        "id": 10
+        "id": 9
     },
     {
         "name": "Flash Generate",
@@ -39,7 +39,7 @@
             "Made use of Yarn (over NPM), and a pre-generated lock-file to save time taken in linking the dependencies and thus, reducing the overall installation time.",
             "Made use of hot-reloading and source maps to elevate the debugging process for both production and the development environment."
         ],
-        "id": 9
+        "id": 8
     },
     {
         "name": "Break",
@@ -52,7 +52,7 @@
             "Implemented a JWT-based user-authentication system. Additionally, secured all the API routes using the same JWT-verification middleware.",
             "Indexed the database collections around userID, and codeID respectively for facilitating a faster query response."
         ],
-        "id": 8
+        "id": 7
     },
     {
         "name": "Easify",
@@ -64,7 +64,7 @@
             "Classification is done in the browser that ensures the security of user's data", 
             "Easify is capable of working in the background thus have an uptime of 24/7."
         ],
-        "id": 7
+        "id": 6
     },
     {
         "name": "Infinity-Skncure",
@@ -75,7 +75,7 @@
             "It is web-based(PWA) skin disease predictor that can predict over 10 skin diseases and can even suggest skin doctors in the proximity.",
             "Features include – Disease detection using images, real-time disease detection, appointment scheduling, skin health tracker, nearby dermatologists on an in-app Google Map, and a community section to post pictures and text in both public and private mode."
         ],
-        "id": 6
+        "id": 5
     },
     {
         "name": "Summarizer Command-Line Tool",
@@ -85,7 +85,7 @@
             "It is an interactive command-line interface tool to help you summarize exhaustive texts into smaller ones using text-analysis and Natural Language Processing.",
             "Users can simply locate the file containing the text that is to be summarized from the command line and print the result anywhere in their machines."
         ],
-        "id": 5
+        "id": 4
     },
     {
         "name": "Event Registration System",
@@ -94,15 +94,6 @@
         "description": [
             "This website is aimed to reduce the dependency of the college club on third-party resources to book tickets for the events. This project makes use of  Google's Firebase to server backend as a service.",
             "We've enabled this project to create dynamic events along with dynamic forms, and store the data of participants safely that can be retained in the form of .xls(excel) file."
-        ],
-        "id": 4
-    },
-    {
-        "name": "Technical Blog",
-        "githubLink": "https://github.com/ishubham21/techblog/",
-        "techstacks": "RSS2JSON, Medium API, JavaScript, CSS, HTML",
-        "description": [
-            "This website automatically picks up the content from my medium profile in the form of RSS feed, converts it into JSON and present it to the user."
         ],
         "id": 3
     },
