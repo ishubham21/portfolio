@@ -16,7 +16,7 @@ const Resume = () => {
   //show loading section, if not loaded
   const [notLoaded, setLoaded] = useState(true);
 
-  const resumeLink = "https://resume.meshubham.live";
+  const resumeLink = "https://resume.shubhamgautam.in";
 
   useEffect(() => {
     //setting experience, communities, achivements, volunterring
