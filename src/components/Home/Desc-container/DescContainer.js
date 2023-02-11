@@ -7,7 +7,7 @@ const DescContainer = () => {
                 Hello
             </div>
             <div className="headline-2">
-                Here's who I am & what I do
+               I am Shubham and, hey, welcome to my world!
             </div>
             <div className="btn-container">
                 <Link to='/resume'>
