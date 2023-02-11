@@ -1,14 +1,25 @@
 [
     {
-        "from": "May 2022",
+        "from": "Nov 2022",
         "to": "Present",
+        "company": "Headout",
+        "position": "Software Engineering Intern",
+        "experience": [
+            "Delivered cross-platform utility banner solution for web and mobile apps using React, React-Native, and React-Native-Web, contributing to successful promotional campaigns by Headout.",
+            "Collaborated effectively with cross-functional teams of engineers and designers to resolve bugs, utilizing expertise in React, React-Native, and JSP to drive application improvements."
+        ],
+        "id": 6
+    },
+    {
+        "from": "May 2022",
+        "to": "July 2022",
         "company": "Warmspace",
         "position": "Full Stack Engineer Intern",
         "experience": [
-            "Worked on writing Github Actions to facilitate Continous Integration and developing a Continous Deployment pipeline for automated deployment on Cloudflare.",
-            "Working on writing tests for components using Jest + React Testing Library. Successful in raising the test coverage from 3.16% to 21.36% (increasing currently).",
+            "Boosted test coverage for React components from 3.16% to 21.36% by independently writing and executing Jest + React Testing Library tests.",
+            "Streamlined software development processes by creating CI/CD pipelines using GitHub Actions and promoting adherence to standard workflows.",
             "Used React + Typescript to develop multiple features for the Gathering space (Zoom gathering like product) and to resolve UI bugs.",
-            "Researching about different products and comparing them to make engineering decisions about internal products."
+            "Improved application stability and functionality by fixing existing bugs, developing new features, and smoothly migrating video conferencing SDK from Agora to Daily.co using React and TypeScript."
         ],
         "id": 5
     },
