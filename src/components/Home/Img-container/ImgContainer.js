@@ -12,7 +12,7 @@ const ImgContainer = () => {
         mail: 'https://mail.google.com/mail/?view=cm&fs=1&to=sg2199203@gmail.com',
         github: 'https://github.com/ishubham21',
         phone: 'tel:+919950746862',
-        instagram: 'https://instagram.com/ishubham21'
+        instagram: 'https://www.instagram.com/sh.stxg/'
     }
 
     return (
