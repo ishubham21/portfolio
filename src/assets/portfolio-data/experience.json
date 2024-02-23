@@ -3,10 +3,12 @@
         "from": "Nov 2022",
         "to": "Present",
         "company": "Headout",
-        "position": "Software Engineering Intern",
+        "position": "Software Engineer",
         "experience": [
+            "Spearheaded and piloted Headout’s loyalty program. This initiative involved establishing automated enrollment, retargeting strategies, and progressive benefits for users.",
             "Delivered cross-platform utility banner solution for web and mobile apps using React, React-Native, and React-Native-Web, contributing to successful promotional campaigns by Headout.",
-            "Collaborated effectively with cross-functional teams of engineers and designers to resolve bugs, utilizing expertise in React, React-Native, and JSP to drive application improvements."
+            "Collaborated effectively with cross-functional teams of engineers and designers to resolve bugs, utilizing expertise in React, React-Native, and JSP to drive application improvements.",
+            "Engineered an intermediate up-sell stage for combo products, boosting average revenue per user by 11% and shaping vital tech-product strategies.",
         ],
         "id": 6
     },
