@@ -1,5 +1,7 @@
 import { useEffect } from "react";
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 import Home from './components/Home/Home';
 import Resume from './components/Resume/Resume';
 import Projects from './components/Projects/Projects';
@@ -15,6 +17,8 @@ const App = () => {
 
   return (
     <div className="App">
+      <Analytics />
+      <SpeedInsights />
       <Router>
         <Navbar />
         <div className="main-container">
